@@ -21,6 +21,13 @@ It connects to MongoDB Cloud on using its connection URI, its username and passw
 
 Backend is served at `http://localhost:3030` ; PORT = 3030
 
+First Step to start the server is to install the dependencies
+
+```bash
+cd backend
+npm install
+```
+
 To start the server in dev mode, run (in a separate terminal)
 
 ```bash
@@ -43,6 +50,13 @@ Next.js is used for the frontend.
 Its bootstrapped using create next app with TypeScript template
 
 Frontend is served at `http://localhost:3000` ; PORT = 3000
+
+First Step to start the frontend is to install the dependencies
+
+```bash
+cd stock-crypto-tracker
+npm install
+```
 
 To start the frontend in dev mode, run (in a separate terminal)
 
