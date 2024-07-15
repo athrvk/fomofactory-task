@@ -9,6 +9,8 @@ The backend polls Yahoo Finance for stock data. at every POLL_INTERVAL (can be s
 
 Yahoo Finance API: `https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1m&range=1d`
 
+To Add new stocks to poll add them to `constants.ts` in `STOCKS_TO_POLL` array
+
 It stores the polled data in MongoDB Cloud
 
 It serves two APIs `api/stocks` and `api/stock/chart/{symbol}`
