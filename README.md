@@ -17,14 +17,16 @@ It opens a websocket connection which listens on `pollSymbol` and emits data eve
 
 It connects to MongoDB Cloud on using its connection URI, its username and password are set in .env file, its db name and collection name are set in `constants.ts`
 
-To start the server in dev mode, run
+Backend is served at `http://localhost:3030` ; PORT = 3030
+
+To start the server in dev mode, run (in a separate terminal)
 
 ```bash
 cd backend
 npm run dev
 ```
 
-To run the server in production mode, run
+To run the server in production mode, run (in a separate terminal)
 
 ```bash
 cd backend
@@ -38,14 +40,18 @@ Next.js is used for the frontend.
 
 Its bootstrapped using create next app with TypeScript template
 
-To start the frontend in dev mode, run
+Frontend is served at `http://localhost:3000` ; PORT = 3000
+
+To start the frontend in dev mode, run (in a separate terminal)
 
 ```bash
 cd stock-crypto-tracker
 npm run dev
 ```
 
-To run the frontend in production mode, run
+This should open the browser and navigate to `http://localhost:3000`
+
+To run the frontend in production mode, run (in a separate terminal)
 
 ```bash
 cd stock-crypto-tracker
