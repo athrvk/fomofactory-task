@@ -12,7 +12,7 @@ const loadState = () => {
     if (serializedState === null) {
       return undefined;
     }
-    return { stocks: JSON.parse(serializedState), socket: undefined };
+    return { stocks: JSON.parse(serializedState), socket: { isSocketConnected: false } };
   } catch (err) {
     console.error(`Failed to load state from localStorage: ${err}`);
     localStorage.removeItem('stockAppState');
