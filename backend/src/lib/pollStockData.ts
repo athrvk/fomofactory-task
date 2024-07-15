@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb"
 import { StockData, YahooFinanceResponse } from "../types/types"
-import { STOCKS_TO_POLL } from "./contants"
+import { STOCKS_TO_POLL } from "./constants"
 
 const POLL_INTERVAL = Number(process.env.POLL_INTERVAL) || 5000
 const DB_NAME = process.env.MONGODB_DB_NAME || "stock-tracker"

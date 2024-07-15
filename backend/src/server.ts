@@ -7,7 +7,7 @@
 // dotenv.config({ path: path.resolve(__dirname, '../') + '/.env.local' });
 
 import express, { Express, Request, Response } from "express";
-import { STOCKS_TO_POLL } from "./lib/contants";
+import { STOCKS_TO_POLL } from "./lib/constants";
 import clientPromise from "./lib/mongodb";
 import initializePolling from "./lib/pollStockData";
 import { Server } from "socket.io";
